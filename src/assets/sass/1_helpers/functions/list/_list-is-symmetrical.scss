@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+
+/// List is symmetrical - Checks whether `$list` is symmetrical.
+///
+/// @group list
+///
+/// @ignore Documentation: http://at-import.github.io/SassyLists/documentation/#function-list-is-symmetrical
+///
+/// @requires list-reverse
+///
+/// @param {List} $list - list to check
+///
+/// @example
+/// list-is-symmetrical(a b c)
+/// // false
+///
+///
+/// @example
+/// list-is-symmetrical(a b a)
+/// // true
+///
+/// @return {Bool}
+///
+
+@function list-is-symmetrical($list) {
+    $_: missing-dependencies('list-reverse');
+
+    @return $list==list-reverse($list);
+}

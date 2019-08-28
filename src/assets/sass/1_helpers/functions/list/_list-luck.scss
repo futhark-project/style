@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+/// List luck
+///
+/// @group list
+///
+/// @requires list-random-value
+/// @alias list-random-value
+///
+
+@function list-luck($list) {
+    @return list-random-value($list);
+}

@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+/// List clean
+///
+/// @group list
+///
+/// @requires list-purge
+/// @alias list-purge
+///
+
+@function list-clean($list) {
+    @return list-purge($list);
+}

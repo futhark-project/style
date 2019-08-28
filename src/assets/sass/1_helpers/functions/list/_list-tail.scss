@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+
+/// List tail - Returns the tail of `$list`: all items except the first (head).
+///
+/// @group list
+///
+/// @ignore Documentation: http://at-import.github.io/SassyLists/documentation/#function-list-tail
+///
+/// @requires list-slice
+///
+/// @param {List} $list - list to retrieve tail from
+///
+/// @example
+/// list-tail(a b c)
+/// // b c
+///
+/// @return {List | Null}
+///
+
+@function list-tail($list) {
+    $_: missing-dependencies('list-slice');
+
+    @return list-slice($list, 2);
+}

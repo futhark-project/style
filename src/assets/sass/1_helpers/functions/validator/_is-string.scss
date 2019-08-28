@@ -1,0 +1,14 @@
+@charset 'UTF-8';
+
+///
+/// Check if $value is a string
+///
+/// @group validators
+///
+/// @param {*} $value - value to run test against
+/// @return {Bool}
+///
+
+@function is-string($value) {
+    @return type-of($value)=='string';
+}

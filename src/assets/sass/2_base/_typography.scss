@@ -1,0 +1,54 @@
+@charset 'UTF-8';
+
+////
+/// Typography
+/// Typography defaults
+///
+/// @author Samuel DIDIER-LAURENT
+/// @example
+///     @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+////
+
+
+// $font-family-system - default font system stack
+// @type {String}
+//
+// @link https://bitsofco.de/the-new-system-font-stack/
+// 1. (San Francisco) iOS Safari, macOS Safari, macOS Firefox
+// 2. (San Francisco) macOS Chrome
+// 3. (Segoe UI) Windows
+// 4. (Roboto) Android, Chrome OS
+// 5. Emojis
+
+$font-family-system: -apple-system, system, /* 1 */
+    BlinkMacSystemFont, /* 2 */
+    "Segoe UI", /* 3 */
+    Roboto, /* 4 */
+    sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default; /* 5 */
+
+
+/// default link styling
+a:not([class]){
+    color: colors('primary');
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    &::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 100%;
+        height: 1px;
+        opacity: 0;
+        background-color: currentColor;
+        transition: animations('duration') animations('easing');
+        transition-property: opacity;
+    }
+    @include hover{
+        &::before{
+            opacity: 1;
+        }
+    }
+}

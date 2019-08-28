@@ -1,0 +1,62 @@
+{
+  "name": "@futhark/style-core",
+  "version": "0.0.1",
+  "description": "sass framework/utilities",
+  "main": "index.js",
+  "style": "src/assets/sass/_style-core.scss",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp --production",
+    "doc": "gulp doc"
+  },
+  "keywords": [
+    "eyeglass-module",
+    "sass"
+  ],
+  "author": "iStuffs: Samuel DIDIER-LAURENT <istuffs@gmail.com> (https://istuffs.be)",
+  "license": "CC-BY-NC-SA-4.0",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eyeglass": "^2.4.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-if": "^3.0.0",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "rimraf": "^3.0.0",
+    "sassdoc": "^2.7.0",
+    "yargs": "^14.0.0"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "bootstrap-reboot-importer": "^1.0.1",
+    "bourbon": "^6.0.0",
+    "sassy-normalize": "^8.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iStuffs/starter-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iStuffs/starter-kit/issues"
+  },
+  "homepage": "https://github.com/iStuffs/starter-kit#readme",
+  "eyeglass": {
+    "name": "style-core",
+    "exports": "eyeglass-exports.js",
+    "needs": "^2.0.0"
+  }
+}

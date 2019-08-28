@@ -1,0 +1,50 @@
+@charset 'UTF-8';
+
+////
+/// Variables
+///
+/// @author Samuel DIDIER-LAURENT
+/// @group variables/colors
+////
+
+
+// named colors
+// -----
+$light: white !default;
+$dark: black !default;
+$blue: #007bff !default;
+$yellow: #ffc107 !default;
+$gray: #6c757d !default;
+$green: #28a745 !default;
+$cyan: #17a2b8 !default;
+$red: #dc3545 !default;
+
+
+// semantic colors
+// -----
+$color-primary: $blue !default;
+$color-secondary: $gray !default;
+$color-success: $green !default;
+$color-info: $cyan !default;
+$color-warning: $yellow !default;
+$color-danger: $red !default;
+
+$color-font: $dark !default;
+$color-selection: tint($color-primary, 40%) !default;
+$color-background: $light !default;
+$color-foreground: $gray !default;
+
+// semantic colors map
+// -----
+$colors: (
+    'primary': $color-primary,
+    'secondary': $color-secondary,
+    'success': $color-success,
+    'info': $color-info,
+    'warning': $color-warning,
+    'danger': $color-danger,
+    'font': $color-font,
+    'selection': $color-selection,
+    'background': $color-background,
+    'foreground': $color-foreground
+) !default;

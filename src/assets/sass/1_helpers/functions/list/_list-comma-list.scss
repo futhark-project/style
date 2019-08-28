@@ -1,0 +1,18 @@
+@charset 'UTF-8';
+
+/// List comma list -Initialize an empty comma-separated list.
+///
+/// @group list
+///
+/// @ignore Documentation: http://at-import.github.io/SassyLists/documentation/#function-list-comma-list
+///
+/// @example
+/// list-comma-list()
+/// // ()
+///
+/// @return {List}
+///
+
+@function list-comma-list() {
+    @return zip((), ());
+}

@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+
+/// List is empty - Tests whether `$list` is empty.
+///
+/// @group list
+///
+/// @ignore Documentation: http://at-import.github.io/SassyLists/documentation/#function-list-is-empty
+///
+/// @param {List} $list - list to run test against
+///
+/// @example
+/// list-is-empty(())
+/// // true
+///
+/// @example
+/// list-is-empty(a)
+/// // false
+///
+/// @return {Bool}
+///
+
+@function list-is-empty($list) {
+    @return length($list)==0;
+}

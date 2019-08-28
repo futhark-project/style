@@ -1,0 +1,20 @@
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "fonts" !default;
+
+$icon-home: "\e902" !default;
+$icon-cross: "\ea0f" !default;
+$icon-checkmark: "\ea10" !default;
+$icon-arrow-up: "\ea3a" !default;
+$icon-arrow-right: "\ea3c" !default;
+$icon-arrow-down: "\ea3e" !default;
+$icon-arrow-left: "\ea40" !default;
+
+$icons: (
+    'home': '\e902',
+    'cross': '\ea0f',
+    'checkmark': '\ea10',
+    'arrow-up': '\ea3a',
+    'arrow-right': '\ea3c',
+    'arrow-down': '\ea3e',
+    'arrow-left': '\ea40'
+) !default;

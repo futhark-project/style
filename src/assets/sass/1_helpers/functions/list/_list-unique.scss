@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+/// List unique
+///
+/// @group list
+///
+/// @requires list-remove-duplicates
+/// @alias list-remove-duplicates
+///
+
+@function list-unique($list) {
+    @return list-remove-duplicates($list);
+}

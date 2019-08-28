@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+/// List roll
+///
+/// @group list
+///
+/// @requires list-random-value
+/// @alias list-random-value
+///
+
+@function list-roll($list) {
+    @return list-random-value($list);
+}

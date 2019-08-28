@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+/// List shift indexes
+///
+/// @group list
+///
+/// @requires list-loop
+/// @alias list-loop
+///
+
+@function list-shift-indexes($list, $value: 1) {
+    @return list-loop($list, $value);
+}
