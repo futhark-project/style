@@ -1,6 +1,6 @@
 {
   "name": "@futhark/style-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "sass framework/utilities",
   "main": "index.js",
   "style": "src/assets/sass/_style-core.scss",
