@@ -15,13 +15,13 @@
 ///
 /// @requires list-has-multiple-values
 ///
-/// @example
-/// list-loop(a b c)
-/// // c a b
+/// @example scss
+///   // list-loop(a b c)
+///   @debug list-loop(a b c) // c a b
 ///
-/// @example
-/// list-loop(a b c, 2)
-/// // b c a
+/// @example scss
+///   // list-loop(a b c, 2)
+///   @debug list-loop(a b c, 2) // b c a
 ///
 /// @return {List | Null}
 ///

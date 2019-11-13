@@ -8,13 +8,13 @@
 ///
 /// @param {List} $list - list to run test against
 ///
-/// @example
-/// list-has-multiple-values(a)
-/// // false
+/// @example scss
+///   // list-has-multiple-values(a)
+///   @debug list-has-multiple-values(a) // false
 ///
-/// @example
-/// list-has-multiple-values(a b)
-/// // true
+/// @example scss
+///   // list-has-multiple-values(a b)
+///   @debug list-has-multiple-values(a b) // true
 ///
 /// @return {Bool}
 ///

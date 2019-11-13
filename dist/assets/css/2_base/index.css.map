@@ -1,0 +1,1 @@
+{"version":3,"sources":["2_base/index.scss"],"names":[],"mappings":"AAAA,mBAAA;AACA,wBAAA;AACA,kBAAA;AACA,wBAAA","file":"index.css","sourcesContent":["@foreward './reset';\n@foreward './typography';\n@foreward './base';\n@foreward './icons/base';\n"]}

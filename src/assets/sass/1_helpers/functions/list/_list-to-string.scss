@@ -12,13 +12,13 @@
 /// @requires list-has-multiple-values
 /// @requires list-last
 ///
-/// @example
-/// list-to-string(a b c)
-/// // abc
+/// @example scss
+///   // list-to-string(a b c)
+///   @debug list-to-string(a b c) // abc
 ///
 /// @example
-/// list-to-string(a b c, '-')
-/// // a-b-c
+///   // list-to-string(a b c, '-')
+///   @debug list-to-string(a b c, '-') // a-b-c
 ///
 /// @return {String}
 ///

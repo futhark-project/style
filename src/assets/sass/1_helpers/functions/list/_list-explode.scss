@@ -13,13 +13,13 @@
 /// @throws $string is not a string for `list-explode`.
 /// @throws $delimiter is not a string for `list-explode`.
 ///
-/// @example
-/// list-explode(abc)
-/// // a b c
+/// @example scss
+///   // list-explode(abc)
+///   @debug list-explode(abc) // a b c
 ///
-/// @example
-/// list-explode(abc, b)
-/// // a c
+/// @example scss
+///   // list-explode(abc, b)
+///   @debug list-explode(abc, b) // a c
 ///
 /// @return {List | Null}
 ///

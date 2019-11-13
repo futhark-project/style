@@ -9,13 +9,13 @@
 /// @param {List}    $list  - list to check
 /// @param {*}       $value - value to look for
 ///
-/// @example
-/// list-contain(a b c, a)
-/// // true
+/// @example scss
+///   // list-contain(a b c, a)
+///   @debug list-contain(a b c, a) // true
 ///
-/// @example
-/// list-contain(a b c, z)
-/// // false
+/// @example scss
+///   // list-contain(a b c, z)
+///   @debug list-contain(a b c, a) // false
 ///
 /// @return {Bool}
 ///

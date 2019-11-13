@@ -12,17 +12,17 @@
 /// @throws `$n` is not unitless for `list-range`.
 /// @throws `$n` is not greater than 0 for `list-range`.
 ///
-/// @example
-/// list-range(5)
-/// // 1 2 3 4 5
+/// @example scss
+///   // list-range(5)
+///   @debug list-range(5) // 1 2 3 4 5
 ///
-/// @example
-/// list-range(1)
-/// // 1
+/// @example scss
+///   // list-range(1)
+///   @debug list-range(1) // 1
 ///
-/// @example
-/// list-range(-42)
-/// // null
+/// @example scss
+///   // list-range(-42)
+///   @debug list-range(-42) // null
 ///
 /// @return {List | Number | Null}
 ///

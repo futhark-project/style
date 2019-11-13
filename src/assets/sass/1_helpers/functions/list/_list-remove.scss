@@ -11,9 +11,9 @@
 /// @param {List}    $list      - list to update
 /// @param {*}       $value     - value to remove
 ///
-/// @example
-/// list-remove(a b c, a)
-/// // b c
+/// @example scss
+///   // list-remove(a b c, a)
+///   @debug list-remove(a b c, a) // b c
 ///
 /// @return {List}
 ///

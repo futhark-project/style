@@ -8,13 +8,19 @@
 /// @param {Number} $number - A number to round
 /// @param {Number} $digits [0] - Digits to output
 /// @return {Number} - A floored number
-/// @example
-///     decimal-floor(0.333)    => 0
-///     decimal-floor(0.333, 1) => 0.3
-///     decimal-floor(0.333, 2) => 0.33
-///     decimal-floor(0.666)    => 0
-///     decimal-floor(0.666, 1) => 0.6
-///     decimal-floor(0.666, 2) => 0.66
+/// @example scss
+///     // decimal-floor(0.333);
+///     @debug decimal-floor(0.333); // 0
+///     // decimal-floor(0.333, 1);
+///     @debug decimal-floor(0.333, 1); // 0.3
+///     // decimal-floor(0.333, 2);
+///     @debug decimal-floor(0.333, 2); // 0.33
+///     // decimal-floor(0.666);
+///     @debug decimal-floor(0.666); // 0
+///     // decimal-floor(0.666, 1);
+///     @debug decimal-floor(0.666, 1); // 0.6
+///     // decimal-floor(0.666, 2);
+///     @debug decimal-floor(0.666, 2); // 0.66
 ///
 /// @link gist.github.com/terkel/4373420
 

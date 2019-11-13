@@ -16,21 +16,21 @@
 /// @throws Start index has to be lesser than or equal to list length for `list-slice`.
 /// @throws End index has to be lesser than or equal to list length for `list-slice`.
 ///
-/// @example
-/// list-slice(a b c d e, 2, 4)
-/// // b c d
+/// @example scss
+///   // list-slice(a b c d e, 2, 4)
+///   @debug list-slice(a b c d e, 2, 4) // b c d
 ///
-/// @example
-/// list-slice(a b c d e, 2, 2)
-/// // b
+/// @example scss
+///   // list-slice(a b c d e, 2, 2)
+///   @debug list-slice(a b c d e, 2, 2) // b
 ///
-/// @example
-/// list-slice(a b c d e, 4, 2)
-/// // null
+/// @example scss
+///   // list-slice(a b c d e, 4, 2)
+///   @debug list-slice(a b c d e, 4, 2) // null
 ///
-/// @example
-/// list-slice(a b c d e, -1, 6)
-/// // null
+/// @example scss
+///   // list-slice(a b c d e, -1, 6)
+///   @debug list-slice(a b c d e, -1, 6) // null
 ///
 /// @return {List | Null}
 ///

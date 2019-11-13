@@ -10,9 +10,9 @@
 ///
 /// @requires list-to-list
 ///
-/// @example
-/// list-reverse(a b c)
-/// // c b a
+/// @example scss
+///   // list-reverse(a b c)
+///   @debug list-reverse(a b c) // c b a
 ///
 /// @return {List}
 ///

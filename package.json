@@ -16,17 +16,14 @@
   "author": "iStuffs: Samuel DIDIER-LAURENT <istuffs@gmail.com> (https://istuffs.be)",
   "license": "CC-BY-NC-SA-4.0",
   "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
-    "@babel/register": "^7.6.2",
-    "babel-loader": "^8.0.6",
-    "eslint": "^6.5.1",
+    "eslint": "^6.6.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eyeglass": "^2.4.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.2.0",
+    "gulp-dart-sass": "^0.9.1",
     "gulp-if": "^3.0.0",
     "gulp-load-plugins": "^2.0.1",
     "gulp-notify": "^3.2.0",
@@ -44,6 +41,7 @@
   "dependencies": {
     "bootstrap-reboot-importer": "^1.0.1",
     "bourbon": "^6.0.0",
+    "sassdoc-theme-herman": "^3.0.2",
     "sassy-normalize": "^8.0.4"
   },
   "repository": {

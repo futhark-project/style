@@ -11,8 +11,8 @@
 /// @requires list-has-multiple-values
 ///
 /// @example
-/// list-flatten(a b c, d e f, g h i)
-/// // a b c d e f g h i
+///   // list-flatten(a b c, d e f, g h i)
+///   @debug list-flatten(a b c, d e f, g h i) // a b c d e f g h i
 ///
 /// @return {List}
 ///

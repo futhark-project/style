@@ -7,13 +7,19 @@
 /// @param {Number} $number - A number to round
 /// @param {Number} $digits [0] - Digits to output
 /// @return {Number} - A ceiled number
-/// @example
-///     decimal-ceil(0.333)    => 1
-///     decimal-ceil(0.333, 1) => 0.4
-///     decimal-ceil(0.333, 2) => 0.34
-///     decimal-ceil(0.666)    => 1
-///     decimal-ceil(0.666, 1) => 0.7
-///     decimal-ceil(0.666, 2) => 0.67
+/// @example scss
+///     // decimal-ceil(0.333);
+///     @debug decimal-ceil(0.333); // 1
+///     // decimal-ceil(0.333, 1);
+///     @debug decimal-ceil(0.333, 1); // 0.4
+///     // decimal-ceil(0.333, 2);
+///     @debug decimal-ceil(0.333, 2); // 0.34
+///     // decimal-ceil(0.666);
+///     @debug decimal-ceil(0.666); // 1
+///     // decimal-ceil(0.666, 1);
+///     @debug decimal-ceil(0.666, 1); // 0.7
+///     // decimal-ceil(0.666, 2);
+///     @debug decimal-ceil(0.666, 2); // 0.67
 ///
 /// @link gist.github.com/terkel/4373420
 

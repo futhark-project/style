@@ -8,17 +8,18 @@
 ///
 /// @param {List} $list - list to run test against
 ///
-/// @example
-/// list-is-single(())
-/// // false
+/// @example scss
+///   // list-is-single(())
+///   $value: ();
+///   @debug list-is-single($value) // false
 ///
-/// @example
-/// list-is-single(a)
-/// // true
+/// @example scss
+///   // list-is-single(a)
+///   @debug list-is-single(a) // true
 ///
-/// @example
-/// list-is-single(a b)
-/// // false
+/// @example scss
+///   // list-is-single(a b)
+///   @debug list-is-single(a b) // false
 ///
 /// @return {Bool}
 ///

@@ -15,8 +15,8 @@
 /// @requires list-has-multiple-values
 ///
 /// @example
-/// list-debug(a b c)
-/// // '("a", "b", "c")'
+///   // list-debug(a b c)
+///   @debug list-debug(a b c) // '("a", "b", "c")'
 ///
 /// @return {String}
 ///

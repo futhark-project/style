@@ -15,9 +15,9 @@
 /// @requires list-to-map
 /// @requires list-to-list
 ///
-/// @example
-/// list-walk(a b c, to-upper-case)
-/// // A B C
+/// @example scss
+///   // list-walk(a b c, to-upper-case)
+///   @debug list-walk(a b c, to-upper-case) // A B C
 ///
 /// @return {List | Null}
 ///

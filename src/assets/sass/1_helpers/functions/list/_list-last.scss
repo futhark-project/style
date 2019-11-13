@@ -12,17 +12,18 @@
 ///
 /// @requires list-is-empty
 ///
-/// @example
-/// list-last(a b c)
-/// // c
+/// @example scss
+///   // list-last(a b c)
+///   @debug list-last(a b c) // c
 ///
-/// @example
-/// list-last(a)
-/// // a
+/// @example scss
+///   // list-last(a)
+///   @debug list-last(a) // a
 ///
-/// @example
-/// list-last(())
-/// // null
+/// @example scss
+///   // list-last(())
+///   $value: ();
+///   @debug list-last($value) // null
 ///
 /// @return {*}
 ///

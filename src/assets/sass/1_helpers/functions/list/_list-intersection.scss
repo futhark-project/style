@@ -12,9 +12,9 @@
 /// @param {list}    $list  - first list
 /// @param {ArgList} $lists - other lists
 ///
-/// @example
-/// list-intersection(a b c, b e d, a c b)
-/// // b
+/// @example scss
+///   // list-intersection(a b c, b e d, a c b)
+///   @debug list-intersection(a b c, b e d, a c b) // b
 ///
 /// @return {List}
 ///

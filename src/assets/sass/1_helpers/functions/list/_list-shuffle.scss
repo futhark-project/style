@@ -10,9 +10,9 @@
 ///
 /// @requires list-to-list
 ///
-/// @example
-/// list-shuffle(a b c)
-/// // b a c
+/// @example scss
+///   // list-shuffle(a b c)
+///   @debug list-shuffle(a b c) // b a c
 ///
 /// @return {List}
 ///

@@ -8,13 +8,14 @@
 ///
 /// @param {List} $list - list to run test against
 ///
-/// @example
-/// list-is-empty(())
-/// // true
+/// @example scss
+///   // list-is-empty(())
+///   $value: ();
+///   @debug list-is-empty($value) // true
 ///
-/// @example
-/// list-is-empty(a)
-/// // false
+/// @example scss
+///   // list-is-empty(a)
+///   @debug list-is-empty(a) // false
 ///
 /// @return {Bool}
 ///

@@ -14,13 +14,13 @@
 /// @param {*}       $old   - value to replace
 /// @param {*}       $value - new value for $old
 ///
-/// @example
-/// list-replace(a b c, b, z)
-/// // a z c
+/// @example scss
+///   // list-replace(a b c, b, z)
+///   @debug list-replace(a b c, b, z) // a z c
 ///
-/// @example
-/// list-replace(a b c, y, z)
-/// // a b c
+/// @example scss
+///   // list-replace(a b c, y, z)
+///   @debug list-replace(a b c, y, z) // a b c
 ///
 /// @return {List}
 ///

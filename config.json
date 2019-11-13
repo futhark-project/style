@@ -10,7 +10,8 @@
     },
     "DOC": {
         "sassDocOptions" : {
-            "dest": "docs/sass"
+            "dest": "docs/sass",
+            "theme": "herman"
         }
     },
     "ERROR": "Error: <%= error.message %>",

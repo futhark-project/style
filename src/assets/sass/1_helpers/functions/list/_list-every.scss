@@ -10,13 +10,13 @@
 /// @param {String}  $function - function to run against every item from list
 /// @param {ArgList} $args     - extra arguments to pass to the function
 ///
-/// @example
-/// list-every(1 2 3, unitless)
-/// // true
+/// @example scss
+///   // list-every(1 2 3, unitless)
+///   @debug list-every(1 2 3, unitless) // true
 ///
-/// @example
-/// list-every(1 2 3px, unitless)
-/// // false
+/// @example scss
+///   // list-every(1 2 3px, unitless)
+///   @debug list-every(1 2 3px, unitless) // false
 ///
 /// @return {Bool}
 ///

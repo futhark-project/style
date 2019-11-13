@@ -10,9 +10,9 @@
 ///
 /// @param {List} $list - list to retrieve tail from
 ///
-/// @example
-/// list-tail(a b c)
-/// // b c
+/// @example scss
+///   // list-tail(a b c)
+///   @debug list-tail(a b c) // b c
 ///
 /// @return {List | Null}
 ///

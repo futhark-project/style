@@ -14,9 +14,10 @@
 ///
 /// @requires list-to-list
 ///
-/// @example
-/// list-chunk(a b c d e, 2)
-/// // a b, c d, e
+/// @example scss
+///   // list-chunk(a b c d e, 2);
+///   @debug list-chunk(a b c d e, 2); // a b, c d, e
+///
 ///
 
 @function list-chunk($list, $size) {

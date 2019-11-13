@@ -8,13 +8,14 @@
 ///
 /// @param {List} $list - list to run test against
 ///
-/// @example
-/// list-has-values(a)
-/// // true
+/// @example scss
+///   // list-has-values(a)
+///   @debug list-has-values(a) // true
 ///
-/// @example
-/// list-has-values(())
-/// // false
+/// @example scss
+///   // list-has-values(())
+///   $value: ();
+///   @debug list-has-values($value) // false
 ///
 /// @return {Bool}
 ///

@@ -8,9 +8,9 @@
 ///
 /// @param {List} $list - list to count values from
 ///
-/// @example
-/// list-count-values(a b c a)
-/// // (a: 2, b: 1, c: 1)
+/// @example scss
+///   // list-count-values(a b c a)
+///   @debug list-count-values(a b c a) // (a: 2, b: 1, c: 1)
 ///
 /// @return {Map} Values mapped to their count
 ///

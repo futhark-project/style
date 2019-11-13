@@ -9,13 +9,13 @@
 /// @param {List} $list  - list to search
 /// @param {*}    $value - value to be searched for
 ///
-/// @example
-/// list-last-index(a b a, a)
-/// // 3
+/// @example scss
+///   // list-last-index(a b a, a)
+///   @debug list-last-index(a b a, a) // 3
 ///
-/// @example
-/// list-last-index(a b a, z)
-/// // null
+/// @example scss
+///   // list-last-index(a b a, z)
+///   @debug list-last-index(a b a, z) // null
 ///
 /// @return {Number | Null}
 ///

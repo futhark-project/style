@@ -12,17 +12,18 @@
 ///
 /// @requires list-is-empty
 ///
-/// @example
-/// list-first(a b c)
-/// // a
+/// @example scss
+///   // list-first(a b c)
+///   @debug list-first(a b c) // a
 ///
-/// @example
-/// list-first(a)
-/// // a
+/// @example scss
+///   // list-first(a)
+///   @debug list-first(a) // a
 ///
-/// @example
-/// list-first(())
-/// // null
+/// @example scss
+///   // list-first(())
+///   $value: ();
+///   @debug list-first($value) // null
 ///
 /// @return {*}
 ///

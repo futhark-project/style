@@ -18,9 +18,9 @@
 ///
 /// @throws List cannot be empty for `list-to-map`.
 ///
-/// @example
-/// list-to-map(a b c)
-/// // 1 a, 2 b, 3 c
+/// @example scss
+///   // list-to-map(a b c)
+///   @debug list-to-map(a b c) // 1 a, 2 b, 3 c
 ///
 /// @return {Map | Null}
 ///

@@ -10,9 +10,9 @@
 ///
 /// @requires list-to-list
 ///
-/// @example
-/// list-remove-duplicates(a b a b)
-/// // a b
+/// @example scss
+///   // list-remove-duplicates(a b a b)
+///   @debug list-remove-duplicates(a b a b) // a b
 ///
 /// @return {List}
 ///

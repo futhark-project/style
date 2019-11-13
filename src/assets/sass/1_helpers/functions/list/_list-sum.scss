@@ -10,21 +10,21 @@
 /// @param {Bool} $force [false] - enable/disable parseInt
 ///
 /// @requires list-every
-/// @requires is-number
+/// @requires is-numbe  // r
 ///
 /// @throws All items from list are not numbers for `list-sum`.
 ///
-/// @example
-/// list-sum(1 2 3)
-/// // 6
+/// @example scss
+///   // list-sum(1 2 3)
+///   @debug list-sum(1 2 3) // 6
 ///
-/// @example
-/// list-sum(a b 1)
-/// null
+/// @example scss
+///   // list-sum(a b 1)
+///   @debug list-sum(a b 1) // null
 ///
-/// @example
-/// list-sum(1 2 3px, true)
-/// // 6
+/// @example scss
+///   // list-sum(1 2 3px, true)
+///   @debug list-sum(1 2 3px, true) // 6
 ///
 /// @return {Number}
 ///

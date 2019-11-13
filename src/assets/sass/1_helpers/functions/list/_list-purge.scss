@@ -11,9 +11,9 @@
 ///
 /// @param {List} $list - list to purge
 ///
-/// @example
-/// list-purge(null a false b)
-/// // a b
+/// @example scss
+///   // list-purge(null a false b)
+///   @debug list-purge(null a false b) // a b
 ///
 /// @return {List}
 ///

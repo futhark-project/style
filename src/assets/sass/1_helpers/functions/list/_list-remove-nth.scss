@@ -11,13 +11,13 @@
 /// @param {List}   $list  - list to remove value from
 /// @param {Number} $index - index to remove
 ///
-/// @example
-/// list-remove-nth(a b c, 2)
-/// // a c
+/// @example scss
+///   // list-remove-nth(a b c, 2)
+///   @debug list-remove-nth(a b c, 2) // a c
 ///
-/// @example
-/// list-remove-nth(a b c, 42)
-/// // null
+/// @example scss
+///   // list-remove-nth(a b c, 42)
+///   @debug list-remove-nth(a b c, 42) // null
 ///
 /// @return {List | Null}
 ///

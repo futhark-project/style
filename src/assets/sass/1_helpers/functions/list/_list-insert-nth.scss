@@ -15,17 +15,17 @@
 /// @throws List index $index is not a number for `list-insert-nth`.
 /// @throws List index $index must be a non-zero integer for `list-insert-nth`.
 ///
-/// @example
-/// list-insert-nth(a b c, 2, z)
-/// // a z b c
+/// @example scss
+///   // list-insert-nth(a b c, 2, z)
+///   @debug list-insert-nth(a b c, 2, z) // a z b c
 ///
-/// @example
-/// list-insert-nth(a b c, 42, z)
-/// // a b c z
+/// @example scss
+///   // list-insert-nth(a b c, 42, z)
+///   @debug list-insert-nth(a b c, 42, z) // a b c z
 ///
-/// @example
-/// list-insert-nth(a b c, -42, z)
-/// // null
+/// @example scss
+///   // list-insert-nth(a b c, -42, z)
+///   @debug list-insert-nth(a b c, -42, z) // null
 ///
 /// @return {List | Null}
 ///

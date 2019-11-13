@@ -12,9 +12,9 @@
 ///
 /// @requires list-is-empty
 ///
-/// @example
-/// list-random-value(a b c)
-/// // a
+/// @example scss
+///   // list-random-value(a b c)
+///   @debug list-random-value(a b c) // a
 ///
 /// @return {*}
 ///

@@ -16,13 +16,13 @@
 ///
 /// @throws Invalid index $index for `list-replace-nth`.
 ///
-/// @example
-/// list-replace-nth(a b c, 2, z)
-/// // a z c
+/// @example scss
+///   // list-replace-nth(a b c, 2, z)
+///   @debug list-replace-nth(a b c, 2, z) // a z c
 ///
-/// @example
-/// list-replace-nth(a b c, 100, z)
-/// // null
+/// @example scss
+///   // list-replace-nth(a b c, 100, z)
+///   @debug list-replace-nth(a b c, 100, z) // null
 ///
 /// @return {List | Null}
 ///
