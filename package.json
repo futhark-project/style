@@ -7,7 +7,9 @@
   "scripts": {
     "start": "gulp",
     "build": "gulp --production",
-    "doc": "gulp doc"
+    "doc": "gulp doc",
+    "gh-pages": "git subtree push --prefix docs/sass origin gh-pages",
+    "deploy": "npm run doc && npm run gh-pages"
   },
   "keywords": [
     "eyeglass-module",
@@ -19,6 +21,7 @@
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "@babel/register": "^7.6.2",
+    "@futhark/straws": "0.0.7",
     "babel-loader": "^8.0.6",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",

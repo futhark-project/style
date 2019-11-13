@@ -1,0 +1,30 @@
+:root {
+    // Animations
+    @each $animation, $key in $animations {
+        --animation-#{$key}: $animation;
+    }
+
+    // Borders
+    --border-width: $border-width;
+    --border-style: $border-style;
+    --border-color: $border-color;
+    --border: var(--border-width) var(--border-style) var(--border-color);
+    --border-radius: $border-radius;
+
+    // Colors
+    @each $color, $key in $colors {
+        --color-#{$key}: $color;
+    }
+
+    // Easings
+    @each $ease, $key in $easings {
+        --#{$key}: $ease;
+    }
+
+
+    // Z-index
+    @each $deep, $key in $z-index {
+        --depth-#{$key}: $deep;
+    }
+
+}

@@ -1,9 +1,4 @@
 {
-    "COMPATIBILITY": [
-        "last 3 versions",
-        "ie >= 11",
-        "ios >= 10"
-    ],
     "CSS": {
         "src": "assets/sass/**/*.{sass,scss}",
         "dest": "assets/css"

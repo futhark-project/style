@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+
+////
+/// Main stylesheet scss file
+///
+/// @author Samuel DIDIER-LAURENT
+////
+
+// Helpers
+// Helpers - vendors
+@import '1_helpers/vendors/bourbon';
+@import '1_helpers/vendors/animate-css/animate-css';
+
+// Helpers - variables and map getters
+@import '1_helpers/variables/index';
+
+@import '1_helpers/functions/index';
+
+@import '1_helpers/mixins/index';
+
+@import '1_helpers/utilities/index';
+
+// Base
+@import '2_base/reset';
+@import '2_base/css-variables';
+@import '2_base/base';
+@import '2_base/print';
+@import '2_base/typography';
+@import '2_base/icons/base';
