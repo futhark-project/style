@@ -16,7 +16,7 @@
   "author": "iStuffs: Samuel DIDIER-LAURENT <istuffs@gmail.com> (https://istuffs.be)",
   "license": "CC-BY-NC-SA-4.0",
   "devDependencies": {
-    "eslint": "^6.6.0",
+    "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eyeglass": "^2.4.1",
@@ -33,7 +33,7 @@
     "gulp-sourcemaps": "^2.6.5",
     "rimraf": "^3.0.0",
     "sassdoc": "^2.7.1",
-    "yargs": "^14.2.0"
+    "yargs": "^15.0.2"
   },
   "directories": {
     "doc": "docs"
